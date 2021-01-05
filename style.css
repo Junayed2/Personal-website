@@ -12,3 +12,29 @@ color: 2px solid black;
 }
 .header-area ul li a{text-decoration: none;
 }
+section{width: 100%;}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 103px;
+    margin-top: 83px;
+}
+.half-width a {
+    border: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, blue, tomato);
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    line-height: 93px;
+    padding: 20px 40px;
+}
+.half-width h1 {
+    font-size: 47px;
+    line-height: 16px;
+}
+#name{color: blue;}
+.half-width p{line-height: 7px;
+color: dimgray;}
+.half-width img{width: 100%;}
