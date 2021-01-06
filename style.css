@@ -13,6 +13,7 @@ color: 2px solid black;
 }
 .header-area ul li a{text-decoration: none;
 }
+
 .half-width {
     width: 40%;
     float: left;
@@ -115,3 +116,68 @@ footer p {
 footer img {
     height: 46px;
 }
+
+
+
+
+
+
+.contact-area{background: #3c5499;
+    padding: 50px 0px;
+    
+}
+.contact-area .extra>h2{font-size:30px;
+color: #fff;
+   margin: 0; 
+   padding-top: 50px;
+text-align: center;
+letter-spacing: 3px;}
+.contact-area form{width: 80%;
+margin: auto;
+margin-top: 14px;}
+
+.username{margin-top: 50px;}
+.username input{font-size: 20px;
+background: #273A72;
+color: #fff;
+padding: 10px;
+border: 1px solid transparent;
+box-sizing: border-box;
+display: block;
+width: 100%;}
+
+.username .name-field{width: 48%;
+float: left;
+}
+.name-field label{color: #fff;
+top: 16px;
+left: 17px;}
+.name-field label span{color: red;}
+.username .email-field {
+    width: 48%;
+    float: right;
+   
+}
+.email-field label{color: #fff;}
+.email-field label span{color: red;}
+.extra textarea{width: 100%;
+    font-size: 20px;
+    background: #273A72;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 15px;}
+.button{text-align: center;}
+.button input{
+background: #30BAE8;
+width: 176px;
+padding: 10px 40px;
+font-size: 18px;
+margin-top:60px;
+border-radius: 6px;
+box-shadow: 0px 5px 0px#273A72;
+border: none;
+cursor: pointer;}
+
+.button input:hover {background: #273A72;}
