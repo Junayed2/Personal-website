@@ -1,17 +1,23 @@
-body{font-family:'Poppins', sans-serif;
-margin: 0%;
-background-image: url("images/top-banner.png");
-background-repeat: no-repeat;}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
 .header-area ul {
     text-align: right;
     margin-right: 133px;
 }
-.header-area  ul li{
-display: inline-block;
-padding-right: 40px;
-color: 2px solid black;
+
+.header-area ul li {
+    display: inline-block;
+    padding-right: 40px;
+    color: 2px solid black;
 }
-.header-area ul li a{text-decoration: none;
+
+.header-area ul li a {
+    text-decoration: none;
 }
 
 .half-width {
@@ -20,6 +26,7 @@ color: 2px solid black;
     margin-left: 103px;
     margin-top: 83px;
 }
+
 .half-width a {
     border: 5px;
     border-radius: 5px;
@@ -31,18 +38,30 @@ color: 2px solid black;
     line-height: 93px;
     padding: 20px 40px;
 }
+
 .half-width h1 {
     font-size: 47px;
     line-height: 16px;
 }
-#name{color: blue;}
-.half-width #p{line-height: 7px;
-color: dimgray;}
+
+#name {
+    color: blue;
+}
+
+.half-width #p {
+    line-height: 7px;
+    color: dimgray;
+}
+
 .half-width #pp {
     line-height: 36px;
     color: dimgray;
 }
-.half-width img{width: 100%;}
+
+.half-width img {
+    width: 100%;
+}
+
 .third-section {
     margin-top: 1289px;
     padding-top: 68px;
@@ -50,29 +69,40 @@ color: dimgray;}
     height: 600px;
     padding-bottom: 123px;
 }
-.section{width: 100%;
-    height: 570px;}
-    .image {
-        width: 100%;
-        padding-top: 65px;
-    }
-    .image-width {
-        width: 25%;
-        float: left;
-        margin-left: 75px;
-        padding: 14px;
-        background-color: #fff;
-        border-radius: 27px;
-        box-shadow: 0px 2px 20px;
-    }
-.image-width img{width: 100%;
-float: left;
+
+.section {
+    width: 100%;
+    height: 570px;
 }
+
+.image {
+    width: 100%;
+    padding-top: 65px;
+}
+
+.image-width {
+    width: 25%;
+    float: left;
+    margin-left: 75px;
+    padding: 14px;
+    background-color: #fff;
+    border-radius: 27px;
+    box-shadow: 0px 2px 20px;
+}
+
+.image-width img {
+    width: 100%;
+    float: left;
+}
+
 #third {
     text-align: center;
     font-size: 41px;
 }
-#third>span{color: blue;}
+
+#third>span {
+    color: blue;
+}
 
 .banner {
     background-image: url("shapes/ll.png");
@@ -83,96 +113,142 @@ float: left;
     padding: 37px;
     border-radius: 55px;
 }
-.fourth-section{  
-      padding-top: 82px;
+
+.fourth-section {
+    padding-top: 82px;
     padding-bottom: 97px;
 }
+
 .banner .end {
     width: 28%;
     display: inline-block;
     padding-left: 146px;
     color: white;
 }
+
 .end h1 {
     font-size: 31px;
 }
-.end a{text-decoration: none;
-color: white;
-border: 5px;
-border-radius: 8px;
-background-image: linear-gradient(45deg, blue, tomato);
-font-size: 16px;
-font-weight: 700;
-padding: 20px 40px;}
+
+.end a {
+    text-decoration: none;
+    color: white;
+    border: 5px;
+    border-radius: 8px;
+    background-image: linear-gradient(45deg, blue, tomato);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+
 footer {
     text-align: center;
     padding-bottom: 57px;
 }
-footer a{text-decoration: none;}
+
+footer a {
+    text-decoration: none;
+}
+
 footer p {
     font-size: ;
     font-size: 26px;
 }
+
 footer img {
     height: 46px;
 }
 
-.contact-area{background: #3c5499;
+.contact-area {
+    background: #3c5499;
     padding: 50px 0px;
-    
 }
-.contact-area .extra>h2{font-size:30px;
-color: #fff;
-   margin: 0; 
-   padding-top: 50px;
-text-align: center;
-letter-spacing: 3px;}
-.contact-area form{width: 80%;
-margin: auto;
-margin-top: 14px;}
 
-.username{margin-top: 50px;}
-.username input{font-size: 20px;
-background: #273A72;
-color: #fff;
-padding: 10px;
-border: 1px solid transparent;
-box-sizing: border-box;
-display: block;
-width: 100%;}
+.contact-area .extra>h2 {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
 
-.username .name-field{width: 48%;
-float: left;
+.contact-area form {
+    width: 80%;
+    margin: auto;
+    margin-top: 14px;
 }
-.name-field label{color: #fff;
-top: 16px;
-left: 17px;}
-.name-field label span{color: red;}
-.username .email-field {
-    width: 48%;
-    float: right;
-   
+
+.username {
+    margin-top: 50px;
 }
-.email-field label{color: #fff;}
-.email-field label span{color: red;}
-.extra textarea{width: 100%;
+
+.username input {
     font-size: 20px;
     background: #273A72;
     color: #fff;
     padding: 10px;
     border: 1px solid transparent;
     box-sizing: border-box;
-    margin-top: 15px;}
-.button{text-align: center;}
-.button input{
-background: #30BAE8;
-width: 176px;
-padding: 10px 40px;
-font-size: 18px;
-margin-top:60px;
-border-radius: 6px;
-box-shadow: 0px 5px 0px#273A72;
-border: none;
-cursor: pointer;}
+    display: block;
+    width: 100%;
+}
 
-.button input:hover {background: #273A72;}
+.username .name-field {
+    width: 48%;
+    float: left;
+}
+
+.name-field label {
+    color: #fff;
+    top: 16px;
+    left: 17px;
+}
+
+.name-field label span {
+    color: red;
+}
+
+.username .email-field {
+    width: 48%;
+    float: right;
+}
+
+.email-field label {
+    color: #fff;
+}
+
+.email-field label span {
+    color: red;
+}
+
+.extra textarea {
+    width: 100%;
+    font-size: 20px;
+    background: #273A72;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button input {
+    background: #30BAE8;
+    width: 176px;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin-top: 60px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 0px#273A72;
+    border: none;
+    cursor: pointer;
+}
+
+.button input:hover {
+    background: #273A72;
+}
