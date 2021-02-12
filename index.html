@@ -6,122 +6,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Junayed</title>
     <link rel="stylesheet" href="style.css">
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="header-area">
-        <ul>
-            <li><a href="#"> ABOUT</a></li>
-            <li><a href="#"> WORK</a></li>
-            <li><a href="#"> PORTFOLIO</a></li>
-            <li><a href="#"> CONTACT</a></li>
-        </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a style="font-size: 212%;font-weight: 500;" class="navbar-brand" href="#"><span id="name-color">
+                        Junayed</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-hover ms-lg-auto mb-2 mb-lg-0">
+                        <li class="nav-item items">
+                            <a id="hello" class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item items">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item items">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
     </header>
-    <section class="first-section">
-        <div class="half-width">
-            <h1>Hello, I'm</h1>
-            <H1><span id="name">MUHAMMAD JUNAYED</span></H1>
-            <p id="p">A full stack allaround designer that placerat </p>
-            <p id="p">in massa consectetur</p>
-            <a target="blank" href="https://www.linkedin.com/in/muhammad-junayed-7415861b1/">HIRE ME</a>
-        </div>
-        <div class="half-width">
-            <img src="images/ju.png" alt="">
-        </div>
-    </section>
-
-    <section class="second-section">
-
-        <div class="half-width">
-            <img src="images/my-bg3.png" alt="">
-        </div>
-        <div class="half-width">
-            <h1>ABOUT</h1>
-            <p id="pp">Hi! I’m Muhammad Junayed. I’m learning computer science myself​ . Now I doing competitive
-                programming. Moreover, I also learning web design and development. I’m very conscious of my work.
-                Because my work is my life. I don’t know anything without my work. I always try properly utilized my
-                time. Because time is a very important thing for every human. So we should be proper utilized our time.
-                I know that I’m a tiny person in the whole world, but I try to do from my position better working.
-                Inshallah one time I can succeed in my life.
-                Thank you my dear friends.
-                Regards to all. </p>
-            <a target="blank" href="https://www.linkedin.com/in/muhammad-junayed-7415861b1/">DOWNLOAD CV</a>
-        </div>
-    </section>
-
-    <section class="third-section">
-
-        <H1 id="third">
-            <span>LASTET</span> WORKING PROJECT
-        </H1>
-
-        <div class="image">
-            <div class="image-width">
-                <img src="images/image 4.png" alt="">
-                <h1>Power-x-gym (gym website)</h1>
-                <p>Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry.</p>
-            </div>
-            <div class="image-width">
-                <img src="images/image 5.png" alt="">
-                <h1>Creative Agency</h1>
-                <p>Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry.</p>
-            </div>
-            <div class="image-width">
-                <img src="images/image 8.png" alt="">
-                <h1>Hard Rock Music</h1>
-                <p>Lorem Ipsum is simply dummy text of the
-                    printing and typesetting industry.</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="contact-area">
-        <div class="extra">
-            <h2>CONTACT US</h2>
-            <form action="">
-                <div class="username">
-                    <div class="name-field">
-                        <label for="names">YOUR NAME <span>*</span></label>
-                        <input type="text" id="names" />
+    <main>
+        <section>
+            <div style="padding: 28px 0px;" class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-12">
+                        <div class="profile-title">
+                            <h1>Hello, I'm</h1>
+                            <H1 style="color: blue;">MUHAMMAD JUNAYED</H1>
+                            <p id="p">A full stack Web designer and developer </p>
+                            <a id="button" target="blank"
+                                href="https://www.linkedin.com/in/muhammad-junayed-7415861b1/">HIRE ME</a>
+                        </div>
                     </div>
-                    <div class="email-field">
-                        <label for="email">YOUR EMAIL <span>*</span></label>
-                        <input type="email" id="email" />
+                    <div class="col-sm-4 col-12">
+                        <img style="width: 100%;" src="images/ju.png" alt="">
                     </div>
                 </div>
-                <textarea name="" id="" cols="30" rows="8" placeholder="Your Message"></textarea>
-                <div class="button">
-                    <input type="submit" value="Send Message" />
+            </div>
+        </section>
+        <section>
+            <div style="padding: 22px 0px;" class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-12">
+
+                        <img style="width: 100%;" src="images/my-bg3.png" alt="">
+                    </div>
+                    <div class="col-sm-8 col-12">
+                        <div class="profile-title">
+                            <h1>ABOUT</h1>
+                            <p id="pp">Hi! I’m Muhammad Junayed. I’m learning computer science myself​ . Now I doing
+                                competitive
+                                programming. Moreover, I also learning web design and development. I’m very conscious of
+                                my work.
+                                Because my work is my life. I don’t know anything without my work. I always try properly
+                                utilized my
+                                time. Because time is a very important thing for every human. So we should be proper
+                                utilized our time.
+                                I know that I’m a tiny person in the whole world, but I try to do from my position
+                                better working.
+                                Inshallah one time I can succeed in my life.
+                                Thank you my dear friends.
+                                Regards to all. </p>
+                            <a id="button" target="blank"
+                                href="https://www.linkedin.com/in/muhammad-junayed-7415861b1/">DOWNLOAD CV</a>
+                        </div>
+                    </div>
                 </div>
-        </div>
-        </form>
-    </section>
-
-
-
-    <section class="fourth-section">
-        <div class="banner">
-            <div class="end">
-                <h1>Work Inquiry</h1>
             </div>
-            <div class="end">
-                <a href="#">LET'S CHAT</a>
+        </section>
+
+        <section style="background-color: #f8f9fc;">
+            <h1 style="text-align: center;padding: 56px 0px;"><span style="color: blue;">LATEST</span> WORKING PROJECT
+            </h1>
+            <div style="padding-bottom: 123px;" class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col h-25">
+                        <div id="br-radius" class="card p-card h-100  p-3 mb-5 bg-white">
+                            <img src="images/image 4.png" alt="">
+                            <div class="card-body">
+                                <h4>Power-x-gym (gym website)</h4>
+                                <p>Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col h-25">
+                        <div id="br-radius" class="card p-card h-100  p-3 mb-5 bg-white">
+                            <img src="images/image 5.png" alt="">
+                            <div class="card-body">
+                                <h4>Creative Agency</h4>
+                                <p>Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col h-25">
+                        <div id="br-radius" class="card p-card h-100  p-3 mb-5 bg-white">
+                            <img src="images/image 8.png" alt="">
+                            <div class="card-body">
+                                <h4>Hard Rock Music</h4>
+                                <p>Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="contact-area">
+            <div class="extra">
+                <h2>CONTACT US</h2>
+                <form action="">
+                    <div class="username">
+                        <div class="name-field">
+                            <label for="names">YOUR NAME <span>*</span></label>
+                            <input type="text" id="names" />
+                        </div>
+                        <div class="email-field">
+                            <label for="email">YOUR EMAIL <span>*</span></label>
+                            <input type="email" id="email" />
+                        </div>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Your Message"></textarea>
+                    <div class="button">
+                        <input type="submit" value="Send Message" />
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
     <footer>
-        <p>Stay connected</p>
-        <h1><a target="blank" href="https://junayeds.xyz/">muhammadjunayed@gmail.com</a></h1>
-        <div class="icon">
-            <img src="icons/Group 33059.png" alt="">
-            <img src="icons/image 6.png" alt="">
-            <img src="icons/image 7.png" alt="">
-        </div>
+        <section>
+            <div class="forPadding">
+                <div style="width: 60%;margin: auto;" class="container row banner">
+                    <div class="col-md-6 col-12">
+                        <h1 style="color: white;margin-top: 15px;"> Work Inquiry</h1>
+                    </div>
+                    <div class="col-md-6 col-12"><a id="buttons" target="blank"
+                            href="https://www.linkedin.com/in/muhammad-junayed-7415861b1/">DOWNLOAD CV</a></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div style="text-align: center;padding-bottom: 57px;" class="container">
+                <p style="font-size: 26px;">Stay connected</p>
+                <h1><a style="text-decoration: none;" target="blank"
+                        href="https://junayeds.xyz/">muhammadjunayed@gmail.com</a></h1>
+                <div class="icon">
+                    <img style="height: 46px;" src="icons/Group 33059.png" alt="">
+                    <img style="height: 46px;" src="icons/image 6.png" alt="">
+                    <img style="height: 46px;" src="icons/image 7.png" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
