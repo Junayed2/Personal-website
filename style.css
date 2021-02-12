@@ -4,24 +4,30 @@ body {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
-p{color: dimgray;}
-.profile-title{
+
+p {
+    color: dimgray;
+}
+
+.profile-title {
     width: 87%;
     margin-left: 56px;
 }
-section{
+
+section {
     width: 100%;
 }
-#br-radius{
+
+#br-radius {
     border-radius: 20px;
     box-shadow: 0px 2px 20px;
 }
-.p-cards{
+
+.p-cards {
     padding-left: 5px;
 }
 
-
-#button{
+#button {
     border: 5px;
     border-radius: 5px;
     background-image: linear-gradient(45deg, blue, tomato);
@@ -32,6 +38,7 @@ section{
     line-height: 93px;
     padding: 13px 40px;
 }
+
 .nav-hover li a:hover, .nav-hover li a#hello {
     background: #FA804C;
     border-radius: 6px;
@@ -39,14 +46,13 @@ section{
     margin-left: 20px;
 }
 
-
-
-.banner{
+.banner {
     background-image: url('shapes/ll.png');
     background-attachment: fixed;
     border-radius: 35px;
 }
-#buttons{
+
+#buttons {
     border: 5px;
     border-radius: 5px;
     background-image: linear-gradient(45deg, blue, tomato);
@@ -57,15 +63,11 @@ section{
     line-height: 93px;
     padding: 12px 25px;
 }
-.forPadding{
+
+.forPadding {
     padding-top: 46px;
     padding-bottom: 68px;
 }
-
-
-
-
-
 
 .contact-area {
     background: #3c5499;
@@ -160,6 +162,7 @@ section{
 .button input:hover {
     background: #273A72;
 }
+
 /* div{
     border: 1px solid black;
 } */
